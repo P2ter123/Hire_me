@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Siteul lui Petru</title>
+    <link rel="stylesheet" href="myself.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <section class="about-us">
+    <div class="about">
+      <img src="Petru.jpg" class="pic">
+      <div class="text">
+        <h2>About me</h2>
+        <h5>Full Stack Developer<span></span></h5>
+          <p>Hello, my name is Peter. I'm 14 years old, and I'm officially a programmer. My dream is to become a web developer, and I'm working hard to make that dream come true. In my free time, I usually program or hang out with my friends. Additionally, I'm considered the best programmer in my school, and this week I started making money. I also wish I could have a job.</p>
+        <div class="data">
+            <p><a href="mailto:petruprofire63@gmail.com" class="hire" id="hire-button">Hire Me</a></p>
+            <script>
+            document.getElementById('hire-button').addEventListener('click', function(event) {
+                event.preventDefault();
+                window.location.href = this.getAttribute('href');
+            });
+            </script>
+            
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
